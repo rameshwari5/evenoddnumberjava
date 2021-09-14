@@ -1,0 +1,23 @@
+
+package eo;
+
+import java.util.Scanner;
+
+
+	
+
+public class abc {
+	public static void main(String[] args) {
+		int num;
+		System.out.println("Enter an a number");
+		Scanner a =new Scanner(System.in);
+		num=a.nextInt();
+		if(num%2==0)
+			System.out.println(num+" No is Even");
+		else 
+		
+			System.out.println(num+" No is odd");
+		
+	}
+
+}
